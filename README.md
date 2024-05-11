@@ -37,3 +37,8 @@ Make sure you have Node.js and npm installed.
    ```sh
    npm start
    ```
+
+### Usage
+   - Enter a search term in the input field and click the "Search" button.   
+   - The app will fetch repositories from GitHub matching the search term.
+   - The list of repository names will be displayed below the search form.
