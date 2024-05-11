@@ -42,3 +42,11 @@ Make sure you have Node.js and npm installed.
    - Enter a search term in the input field and click the "Search" button.   
    - The app will fetch repositories from GitHub matching the search term.
    - The list of repository names will be displayed below the search form.
+
+### Redux Pattern
+The project follows a standard Redux pattern for state management:
+
+   - Actions: Defined in src/state/action-creators.
+   - Reducers: Defined in src/state/reducers.
+   - Store: Configured in src/state/store.
+   - Redux Hooks: Used in components for accessing and dispatching actions.
